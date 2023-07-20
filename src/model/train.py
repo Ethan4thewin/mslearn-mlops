@@ -36,7 +36,7 @@ def get_csvs_df(path):
 
 # TO DO: add function to split data
 def split_data(df):
-    X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.30, random_state=0)
+    X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.20, random_state=0)
     data = {"train" : {"X": X_train, "y": y_train}, "test" : {"X": X_test, "y": y_test}}
     return data
 
