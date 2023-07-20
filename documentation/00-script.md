@@ -4,16 +4,6 @@ challenge:
     challenge: '0: Convert a notebook to production code'
 ---
 
-<style>
-.button  {
-  border: none;
-  color: white;
-  padding: 12px 28px;
-  background-color: #008CBA;
-  float: right;
-}
-</style>
-
 # Challenge 0: Convert a notebook to production code
 
 <button class="button" onclick="window.location.href='https://microsoftlearning.github.io/mslearn-mlops/';">Back to overview</button>
